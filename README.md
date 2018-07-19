@@ -1,4 +1,4 @@
-# clap-validators
+# clap_validators
 
 [![Crates.io](https://img.shields.io/crates/v/clap-validators.svg)](https://crates.io/crates/clap-validators) [![Crates.io](https://img.shields.io/crates/d/clap-validators.svg)](https://crates.io/crates/clap-validators) [![license](http://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/kbknapp/clap-validators/blob/master/LICENSE-MIT) [![Coverage Status](https://coveralls.io/repos/kbknapp/clap-validators/badge.svg?branch=master&service=github)](https://coveralls.io/github/kbknapp/clap-validators?branch=master) [![Join the chat at https://gitter.im/kbknapp/clap-validators](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/kbknapp/clap-validators?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 
