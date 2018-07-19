@@ -200,3 +200,5 @@
 pub mod fs;
 /// Validators which work on numbers
 pub mod num;
+/// Validators which work on strings
+pub mod string;
