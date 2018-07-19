@@ -1,9 +1,8 @@
 [package]
 
-name = "clap-validators"
+name = "clap_validators"
 version = "0.0.1"
 authors = ["Kevin K. <kbknapp@gmail.com>"]
-exclude = ["examples/*"]
 description = "A collection of pre-defined argument value validators that can be dropped in to clap parsing"
 repository = "https://github.com/kbknapp/clap-validators.git"
 documentation = "http://kbknapp.github.io/clap-validators"
@@ -60,3 +59,7 @@ rpath = false
 lto = false
 debug-assertions = true
 codegen-units = 4
+
+[dev-dependencies]
+clap = "~2.32"
+

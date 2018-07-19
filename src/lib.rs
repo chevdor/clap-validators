@@ -59,7 +59,7 @@
 //!
 //! The following examples show a quick example of using `clap-validators` in combination with `clap` to perform some basic validation of arguments.
 //!
-//! ```rust
+//! ```rust ignore
 //! extern crate clap;
 //! extern crate clap_validators;
 //!
@@ -101,7 +101,7 @@
 //!
 //! * Add the following to your `src/main.rs`
 //!
-//! ```rust
+//! ```rust ignore
 //! extern crate clap;
 //! extern crate clap_validators;
 //!
@@ -160,7 +160,7 @@
 //!
 //! If contributing, you can run the tests as follows (assuming you're in the `clap-validators` directory)
 //!
-//! ```
+//! ```ignore
 //! $ cargo test
 //!
 //! # Only on nightly compiler:
