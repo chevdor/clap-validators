@@ -11,3 +11,18 @@ pub fn is_positive(v: String) -> Result<(), String> {
     }
     Err(format!("{} isn't a positive number", &*v))
 }
+
+#[cfg(test)]
+mod tests {
+    use super::*;
+    
+    #[test]
+    fn test_is_positive_true() {
+        assert!(is_positive("42".to_string()).is_ok());
+    }
+
+    #[test]
+    fn test_is_positive_false() {
+        assert!(is_positive("-42".to_string()).is_err());
+    }
+ }
